@@ -1,5 +1,15 @@
+
+//return true if palindrome;else return false
 function isPalindrome(word) {
-  // Write your algorithm here
+let a = word.split('')
+let b = a.reverse()
+let c = b.join('')
+if(c==word){
+  return true
+}
+else {
+  return false
+}
 }
 
 /* 
